@@ -1,0 +1,43 @@
+.red {
+    color: red;
+    font-size: 14px;
+    letter-spacing: 8px;
+
+}
+
+.orange {
+    color: orange;
+    font-size: 30px;
+    letter-spacing: 18px;
+}
+
+.yellow {
+    color: yellow;
+    font-size: 18px;
+}
+.green {
+    color: green;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.blue {
+    color: blue;
+    font-size: 8px;
+    letter-spacing: 1px;
+
+}
+
+.indigo {
+    color: indigo;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+
+.violet {
+    color: violet;
+    font-size: 26px;
+    letter-spacing: 40px;
+
+}

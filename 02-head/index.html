@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Sets the primary language of the document -->
+<html lang="en">
+<!-- 
+    This is useful in many ways. 
+    Your HTML document will be indexed more effectively 
+    by search engines if its language is set 
+    (allowing it to appear correctly in language-specific results),
+    and it is useful to people with visual impairments using screen readers
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding custom icons to your site -->
+    <link rel="icon" type="image/x-icon" href="https://assets.scaler.com/assets/scaler/favicon-b652dfb99111a74c5432b44897a3a277c89f7385c3c0e945e3afcf76ce22971b.ico.gz">
+    <title>Headers & Meta</title>
+
+    <!-- Search engines -->
+    <meta name="author" content="joydeep@interviewbit.com">
+    <meta name="description" content="The first job-driven online tech-versity - improve tech skills and land a dream job. An InterviewBit product." />
+    
+    <!-- Open graph -->
+    <meta property="og:site_name" content="Scaler Academy" />
+    <meta property="og:title" content="Scaler Academy: Accelerate your tech career" />
+    <meta property="og:description" content="The first job-driven online tech-versity - improve tech skills and land a dream job. An InterviewBit product." />
+    <meta property="og:image" content="https://assets.scaler.com/assets/scaler/png/scaler-meta-image-fed27fda894abf1a87190ae638e18c9b8417095d963cf27540c90108824b9ec8.png.gz" />
+    <!-- 
+    The <link> element should always go inside the head of your document. 
+    This takes two attributes, 
+        rel="stylesheet", which indicates that it is the document's stylesheet, 
+        and href, which contains the path to the stylesheet file
+    -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- 
+    The <script> element should also go into the head, 
+        and should include a src attribute containing the path to the JavaScript
+        and defer, which basically instructs the browser to load the JavaScript at the same time as the page's HTML
+    -->
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <span class="rainbow">Rainbow</span>
+    <!-- You can also set subsections of your document to be recognised as different languages -->
+    <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+    
+</body>
+</html>
